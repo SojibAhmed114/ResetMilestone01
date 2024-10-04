@@ -1,3 +1,12 @@
+.head{
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-image: url("./assets/jan-jakub-nanista-z9hvkSDWMIM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .blog{
     border: 1px solid red;
     margin: 20px;
@@ -18,5 +27,6 @@
 .so{
     border: 1px solid red;
     display: block;
+    height: 30px;
     padding: 5px;
 }
