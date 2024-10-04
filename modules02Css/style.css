@@ -1,0 +1,10 @@
+.blog{
+    background-color: blueviolet;
+    margin: 10px 20px;
+    padding-left: 10px;
+    transition: .5s all;
+}
+.blog:hover{
+    border-left: 10px solid red;
+    border-radius: 10px 0 0 10px ;
+}
