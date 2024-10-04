@@ -12,12 +12,12 @@
     margin: 20px;
     padding: 10px;
     transition: .5s all;
-    box-shadow: 10px 10px 10px rgba(137, 43, 226, 0.568);
+    box-shadow: 5px 5px 10px rgba(137, 43, 226, 0.568);
 }
 .blog:hover{
     border-left: 10px solid red;
     border-radius: 10px 0 0 10px ;
-    background-color: ;
+    background-color: rgb(253, 250, 243);
 }
 
 .dis{
