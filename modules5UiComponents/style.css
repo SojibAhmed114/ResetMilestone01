@@ -1,0 +1,16 @@
+.abba{
+    padding: 20px;
+    background-color: lightblue;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.baccha{
+    background-color: lightseagreen;
+    color: white;
+    border: 1px solid;
+    padding: 20px; 
+    margin: 10px 0;
+    font-size: larger;
+}
