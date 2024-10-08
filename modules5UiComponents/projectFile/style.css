@@ -77,6 +77,7 @@ body{
     border-radius: 8px;
     box-sizing: border-box;
     transition: .5s all;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .card:hover{
     background-color: rgba(32, 178, 171, 0.164);
@@ -91,4 +92,42 @@ body{
     background-color: #52C30326;
     border-radius: 4px;
     padding: 8px 20px;
+}
+
+
+/* the end section  */
+#The-end{
+    display: flex;
+}
+.the-end-img-box{
+    width: 50%;
+}
+.the-end-img-box img{
+    width: 100%;
+}
+.the-end-subContainer{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.endContainer{
+    width: 600px;
+    text-align: center;
+}
+
+.sizemaintain{
+    font-size: 36px;
+}
+.heroSubtitle{
+    margin: 20px 0;
+}
+.linkContent{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.commoncolor{
+    color: #52c303;
 }
