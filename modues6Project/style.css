@@ -24,9 +24,15 @@ body{
     font-size: 20px;
     border: none;
 }
-
+.bg-color{
+    background: #20b2ab80;
+}
+.section-description{
+    font-size: 35px;
+    font-weight: 700;
+}
 .header{
-    background-color: rgb(255, 248, 243);
+    background-color: #20b2ab80;
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position:top left, bottom right;
@@ -78,4 +84,77 @@ nav li a {
 .banner-info{
     font-size: 18px;
     margin: 20px 0;
+}
+/* main style  */
+main{
+    max-width: 1140px;
+    margin: auto;
+}
+main section{
+    margin: 130px 0;
+}
+.about{
+    border-radius: 8px;
+    text-align: center;
+    padding: 130px 150px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.skills{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+.skill:hover{
+    border: 1px solid lightseagreen;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.centerText{
+    text-align: center;
+    margin: 20px 0;
+}
+.experience{
+    margin: 30px 0;
+    text-align: justify;
+}
+.btnVai{
+    text-align: center;
+}
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.foooter-container{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+.textArea{
+    height: 150px;
+    resize: none;
 }
