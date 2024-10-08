@@ -29,7 +29,7 @@ body{
     color: rgb(255, 255, 255);
 }
 .heroSubtitle{
-    opacity: .8;
+    opacity: .6;
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
@@ -45,4 +45,50 @@ body{
     opacity: .7;
     font-weight: 500;
     margin-bottom: 16px;
+}
+
+/* section two here  */
+.SectionTwoContainer{
+    width: 1054px;
+    margin: 100px auto;
+}
+.cardTitle{
+    text-align: center;
+    margin-top: 150px;
+}
+.twoHeading{
+    font-size: 80px;
+    line-height: 90px;
+}
+.cardContainer{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: .5s all;
+}
+.card:hover{
+    background-color: rgba(32, 178, 171, 0.164);
+}
+.img-box{
+    width: 99%;
+}
+.img-box img{
+    width: 100%;
+}
+.product-name{
+    background-color: #52C30326;
+    border-radius: 4px;
+    padding: 8px 20px;
 }
