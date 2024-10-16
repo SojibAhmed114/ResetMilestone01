@@ -1,0 +1,27 @@
+ h1:hover{
+    background-color: red;
+    color: white;
+ }
+ .inp:focus{
+    /* outline: 1px  red solid; */
+    border:1px solid red;
+ }
+
+ .imgContainer{
+    height: 100vh;
+    border: 1px solid red;
+    position: relative;
+ }
+ .photoContent{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+ }
+
+ .Content{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 500px;
+ }
